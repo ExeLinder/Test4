@@ -7,4 +7,9 @@ class Calc:
 
     def Mult(self, x,y):
         return x*y
+        
+class Test:
+    def __init__(self)
+        pass
+
     

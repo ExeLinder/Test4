@@ -1,9 +1,10 @@
-def Add(x,y):
-    return x+y
+class Calc:
+    def Add(self, x,y):
+        return x+y
    
-def Sub(x,y):
-    return x-y    
+    def Sub(self, x,y):
+        return x-y    
 
-def Mult(x,y):
-    return x*y
+    def Mult(self, x,y):
+        return x*y
     

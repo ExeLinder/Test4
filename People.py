@@ -1,9 +1,16 @@
-from Person import Person
+from person import Person
 
 
 class People:
     def __init__(self):
-        self.people = []
+        self.__people = []
 
-    def add_person(self, person:Person):
-        self.people.append(person)
+    def addPerson(self, person: Person):
+        self.__people.append(person)
+
+    def getPeople(self):
+        return self.__people
+
+    def printPeople(self):
+        for person in self.__people:
+            print(person)

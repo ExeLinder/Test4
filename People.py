@@ -9,4 +9,7 @@ class People:
         self.people.append(person)
 
     def remove_person(self, person:Person):
-        self.people.remove(person)
+        if person in self.people:
+            self.people.remove(person)
+        else:
+            print("Person not found in list")

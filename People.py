@@ -20,3 +20,5 @@ class People:
     def printPeople(self):
         for person in self.__people:
             print(person)
+    def insertPerson(self, person: Person,  index: int):
+        self.__people.insert(index, person)
